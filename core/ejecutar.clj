@@ -30,6 +30,8 @@
       \# (direccion/saltar-instruccion estado)
       \g (pila/obtener-elemento estado)
       \p (pila/colocar-elemento estado)
+      \& (salida/entrada-user comando estado)
+      \~ (salida/entrada-user comando estado)
       (pila/apilar estado comando))
 )
 
@@ -46,9 +48,5 @@
 		(pila/apilar estado (int comando))
 		(ejecutar-comando comando estado)
 		))]
-		 ;(Thread/sleep 1000)
-		;(println "Comando: " comando)
-		;(println "Pila: " (:pila estado))
-		;(println (:pc estado))
 		(assoc nuevo-estado :pc (direccion/movimiento-PC (:pc nuevo-estado)))))
 
