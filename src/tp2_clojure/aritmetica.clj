@@ -1,4 +1,4 @@
-(ns tp2-clojure.core.aritmetica)
+(ns tp2-clojure.aritmetica)
 
 (defn operacion [tipo estado]
 	(let [pila (:pila estado)

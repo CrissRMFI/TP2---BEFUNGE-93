@@ -1,5 +1,5 @@
-(ns tp2-clojure.core.pila
-	(:require [tp2-clojure.core.direccion :as direccion])
+(ns tp2-clojure.pila
+	(:require [tp2-clojure.direccion :as direccion])
 )
 
 (defn agregar-uno [estado]

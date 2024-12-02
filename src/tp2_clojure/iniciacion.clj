@@ -1,5 +1,5 @@
-(ns tp2-clojure.core.iniciacion
-	(:require [tp2-clojure.core.ejecutar :as ejecutar]))
+(ns tp2-clojure.iniciacion
+	(:require [tp2-clojure.ejecutar :as ejecutar]))
 
 (defn estado-inicial [grid]
 	{ :grid (vec grid)

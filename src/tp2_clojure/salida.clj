@@ -1,4 +1,4 @@
-(ns tp2-clojure.core.salida)
+(ns tp2-clojure.salida)
 
 (defn modo-string [estado]
 	(assoc estado :string-mode (not (:string-mode estado))))

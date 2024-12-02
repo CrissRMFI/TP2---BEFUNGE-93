@@ -1,4 +1,4 @@
-(ns tp2-clojure.core.direccion
+(ns tp2-clojure.direccion
 	(:require [clojure.core :refer [rand-nth]]))
 	
 (defn cambiar-direccion [estado nueva-direccion]

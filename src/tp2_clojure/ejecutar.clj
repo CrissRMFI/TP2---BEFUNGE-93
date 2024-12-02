@@ -1,8 +1,8 @@
-(ns tp2-clojure.core.ejecutar
-(:require [tp2-clojure.core.aritmetica :as aritmetica]
-  			[tp2-clojure.core.pila :as pila]
-  			[tp2-clojure.core.direccion :as direccion]
-  			[tp2-clojure.core.salida :as salida])
+(ns tp2-clojure.ejecutar
+(:require [tp2-clojure.aritmetica :as aritmetica]
+  			[tp2-clojure.pila :as pila]
+  			[tp2-clojure.direccion :as direccion]
+  			[tp2-clojure.salida :as salida])
 )
 
 (defn ejecutar-comando [comando estado]

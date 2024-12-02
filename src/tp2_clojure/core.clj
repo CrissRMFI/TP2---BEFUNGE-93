@@ -1,5 +1,5 @@
 (ns tp2-clojure.core
-  (:require 	[tp2-clojure.core.iniciacion :as iniciacion]))
+  (:require 	[tp2-clojure.iniciacion :as iniciacion]))
 
 (defn leer-archivo [ruta]
   (with-open [reader (clojure.java.io/reader ruta)]
